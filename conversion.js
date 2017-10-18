@@ -49,7 +49,7 @@ function alphabetsTransormation(){
     }
 
     var numericData = expression.match(/\d{1,2}/g);
-    //Letters to int
+    //Letters to numbers
     for(var exp in expression){ 
         if(expression[exp].toLowerCase() in this.alphabetsObject){
           output += this.alphabetsObject[expression[exp].toLowerCase()];
